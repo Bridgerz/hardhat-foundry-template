@@ -13,8 +13,6 @@ import "@openzeppelin/hardhat-upgrades"
 
 import "@primitivefi/hardhat-dodoc"
 
-import "./tasks/demoSetup"
-
 dotenvConfig({ path: resolve(__dirname, "./.env") })
 
 const chainIds = {

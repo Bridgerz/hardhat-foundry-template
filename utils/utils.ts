@@ -59,18 +59,3 @@ export const deployProxyAndSaveAs = async (
   console.log("🚀 ", name, " deployed at ", proxyAddress)
   return proxyAddress
 }
-
-export const formatStableCredits = (value: ethers.BigNumberish) => {
-  return ethers.formatUnits(value, "mwei")
-}
-
-export const parseStableCredits = (value: string) => {
-  return ethers.parseUnits(value, "mwei")
-}
-
-export const getConfig = () => {
-  let adminOwner = process.env.ADMIN_OWNER_ADDRESS
-  let reserveTokenAddress = process.env.RESERVE_TOKEN_ADDRESS
-  let swapRouterAddress = process.env.SWAP_ROUTER_ADDRESS
-  return { adminOwner, reserveTokenAddress, swapRouterAddress }
-}
