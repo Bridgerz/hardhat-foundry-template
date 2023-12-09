@@ -20,6 +20,9 @@ Click the [`Use this template`](https://github.com/bridgerz/hardhat-foundry-temp
 
 This project uses [Foundry](https://github.com/foundry-rs/foundry) for the development framework and [Hardhat](https://github.com/NomicFoundation/hardhat) for the deployment framework.
 
+> **Note**
+> This project enables upgradeability via the **OpenZeppelin Hardhat Upgrades** method. More info on upgradable contracts can be found [here](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies). For details on ownership and upgrading, follow [this](https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for-hardhat) tutorial.
+
 #### Dependencies
 
 1. Install **node** dependencies
